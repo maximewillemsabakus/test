@@ -21,7 +21,7 @@ Contributors
 Maintainer
 -----------
 
-.. image:: https://www.abakusitsolutions.eu/logos/abakus_logo_square_negatif.png
+.. image:: https://maximewillems.com/favicon.ico
    :alt: ABAKUS IT-SOLUTIONS
    :target: http://www.abakusitsolutions.eu
 
