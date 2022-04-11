@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="account_move_generation_wizard_form" model="ir.ui.view">
+        <field name="name">account.move.generation.wizard.form</field>
+        <field name="model">account.move.generation</field>
+        <field name="arch" type="xml">
+            <form string="Generate Invoice">
+                <group>
+                    <group>
+                        <field name="from_journal_id"/>
+                        <field name="from_date"/>
+                    </group>
+                    <group>
+                        <field name="to_journal_id"/>
+                        <field name="to_date"/>
+                    </group>
+                </group>
+
+                <footer>
+                    <button string="Generate Invoices"
+                        name="action_generate_invoices" type="object" class="oe_highlight"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="generate_monthly_invoice" model="ir.actions.act_window">
+		<field name="name">Generate Monthly Invoice</field>
+		<field name="res_model">account.move.generation</field>
+		<field name="view_mode">form</field>
+		<field name="target">new</field>
+	</record>
+
+    <menuitem
+        id="menu_finance_generate_monthly_invoice_menu"
+        name="Generate Monthly Invoice"
+        sequence="5"
+        parent="account.menu_finance_receivables"
+        action="generate_monthly_invoice"/>
+</odoo>

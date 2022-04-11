@@ -1,0 +1,215 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_move_monthly
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-19 08:42+0000\n"
+"PO-Revision-Date: 2021-04-19 10:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.report_invoice_document_inherit_account_move_monthly
+msgid "<span>Date</span>"
+msgstr ""
+
+#. module: account_move_monthly
+#: model:ir.model,name:account_move_monthly.model_account_move_generation
+msgid "Account Move Generation"
+msgstr "Génération de factures"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.account_move_generation_wizard_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: account_move_monthly
+#: model:ir.model,name:account_move_monthly.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__create_uid
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__create_date
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_line__sale_date
+msgid "Date"
+msgstr ""
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__display_name
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__from_date
+msgid "From Date"
+msgstr "Date de début"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__from_journal_id
+msgid "From Journal"
+msgstr "Journal d'origine"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.account_move_generation_wizard_form
+msgid "Generate Invoice"
+msgstr "Générer la facture"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.account_move_generation_wizard_form
+msgid "Generate Invoices"
+msgstr "Générer les factures"
+
+#. module: account_move_monthly
+#: model:ir.actions.act_window,name:account_move_monthly.generate_monthly_invoice
+#: model:ir.ui.menu,name:account_move_monthly.menu_finance_generate_monthly_invoice_menu
+msgid "Generate Monthly Invoice"
+msgstr "Générer les factures mensuelles"
+
+#. module: account_move_monthly
+#: code:addons/account_move_monthly/wizards/account_move_generation.py:0
+#, python-format
+msgid "Generated Invoices"
+msgstr "Factures générées"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move__generated_move_id
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.account_move_view_form_inherit_account_move_monthly
+msgid "Generated Move"
+msgstr "Movements générés"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.view_account_invoice_filter_inherit_account_move_monthly
+msgid "Globalized Invoices"
+msgstr "Factures globalisées"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.view_account_invoice_filter_inherit_account_move_monthly
+msgid "Has Been Globalized"
+msgstr "A été globalisée"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.view_account_invoice_filter_inherit_account_move_monthly
+msgid "Has Not Been Globalized"
+msgstr "N'a pas été globalisée"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__id
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__id
+msgid "ID"
+msgstr ""
+
+#. module: account_move_monthly
+#: model:ir.model,name:account_move_monthly.model_account_move
+msgid "Journal Entries"
+msgstr "Pièces comptables"
+
+#. module: account_move_monthly
+#: model:ir.model,name:account_move_monthly.model_account_move_line
+msgid "Journal Item"
+msgstr "Écriture comptable"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation____last_update
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__write_uid
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__write_uid
+msgid "Last Updated by"
+msgstr "Dernière modification par"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__write_date
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__write_date
+msgid "Last Updated on"
+msgstr "Dernière modification le"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__monthly_max_quantity
+msgid "Monthly Max Quantity"
+msgstr "Quantité maximale mensuelle"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.view_partner_form_inherit_account_move_monthly
+msgid "Monthly invoiced product"
+msgstr "Produit facturé mensuellement"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move__original_move_ids
+msgid "Original Move"
+msgstr "Facture originale"
+
+#. module: account_move_monthly
+#: model_terms:ir.ui.view,arch_db:account_move_monthly.account_move_view_form_inherit_account_move_monthly
+msgid "Original Moves"
+msgstr "Factures originales"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move__original_moves_count
+msgid "Original Moves Count"
+msgstr "Nombre de mouvements d'origine"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__partner_id
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner_product_monthly__product_id
+msgid "Product"
+msgstr "Produit"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_partner__res_partner_product_monthly_ids
+#: model:ir.model.fields,field_description:account_move_monthly.field_res_users__res_partner_product_monthly_ids
+msgid "Res Partner Product Monthly"
+msgstr ""
+
+#. module: account_move_monthly
+#: code:addons/account_move_monthly/wizards/account_move_generation.py:0
+#, python-format
+msgid "There is no invoices to globalize."
+msgstr "Il n'y a pas de factures à globaliser."
+
+#. module: account_move_monthly
+#: model:ir.model.fields,help:account_move_monthly.field_res_partner_product_monthly__monthly_max_quantity
+msgid "This product will be invoiced max the specified quantity monthly."
+msgstr "Ce produit sera facturé mensuellement au maximum de la quantité spécifiée."
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__to_date
+msgid "To Date"
+msgstr "Date de fin"
+
+#. module: account_move_monthly
+#: model:ir.model.fields,field_description:account_move_monthly.field_account_move_generation__to_journal_id
+msgid "To Journal"
+msgstr "Journal de destination"
+
+#. module: account_move_monthly
+#: model:ir.model,name:account_move_monthly.model_res_partner_product_monthly
+msgid "res.partner.product.monthly"
+msgstr ""

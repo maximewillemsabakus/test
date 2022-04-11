@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="report_invoice_document_inherit_account_move_monthly" model="ir.ui.view">
+        <field name="name">report.invoice.document.inherit.account.move.monthly</field>
+        <field name="inherit_id" ref="account.report_invoice_document"/>
+        <field name="arch" type="xml">
+            <xpath expr="//table/thead[1]/tr[1]/*[1]" position="before">
+                <t t-set="has_date" t-value="any([l.sale_date for l in o.invoice_line_ids])"></t>
+                <th t-if="has_date" name="th_date" class="text-left"><span>Date</span></th>
+            </xpath>
+            <xpath expr="//td[@name='account_invoice_line_name']" position="before">
+                <td t-if="has_date" name="sale_date"><span t-field="line.sale_date" t-options="{'widget': 'date'}"/></td>
+            </xpath>
+            <xpath expr="//tbody[@class='invoice_tbody']/t[2]" position="after">
+                <t t-if="has_date" t-set="lines" 
+                t-value="o.invoice_line_ids.sorted(key=lambda l: (l.sale_date if l.sale_date else datetime.datetime.strptime('1970-01-01', '%Y-%m-%d').date(), l.sequence, l.date, l.move_name, l.id))"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
